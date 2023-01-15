@@ -10,7 +10,7 @@ import kotlin.coroutines.CoroutineContext
 //all of my fragment inherited from the abstract class BaseFragment extends Fragment() and implements
 //CoroutineScope.
 //Kotlin Coroutines
-//▪ A new way of managing background threads that can simplify code by reducing the need for
+//▪A new way of managing background threads that can simplify code by reducing the need for
 //callbacks. Coroutines are a Kotlin feature that convert async callbacks for long-running tasks, such as
 //database or network access.
 abstract class BaseFragment : Fragment(), CoroutineScope {

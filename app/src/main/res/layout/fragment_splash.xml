@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_blue_grey_50"
+    tools:context="SplashFragment">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_height="237dp"
+            android:contentDescription="@string/app_name"
+            android:layout_width="match_parent"
+            android:src="@drawable/quiz" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:id="@+id/logo"
+            android:textAlignment="center"
+            android:textSize="21sp"
+            android:layout_height="wrap_content"
+            android:text="My Quiz App" />
+    </LinearLayout>
+
+</FrameLayout>
